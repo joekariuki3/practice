@@ -1,0 +1,6 @@
+# git init
+# git add .
+# git commit -m 'Your message'
+# git status
+# git log 'hit q to qiute'
+# git checout (unique commit id)
