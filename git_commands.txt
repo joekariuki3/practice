@@ -3,4 +3,11 @@
 # git commit -m 'Your message'
 # git status
 # git log 'hit q to qiute'
-# git checout (unique commit id)
+# git checkout (unique commit id)
+
+#Git remote Commands..
+
+# git remote add origin (url)
+# git remote -v
+# git push origin master
+# git pull origin master
