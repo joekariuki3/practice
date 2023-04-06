@@ -1,38 +1,134 @@
-.App {
+.cointiner {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile-image {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 317px;
+  height: 317px;
+}
+.profile-image img {
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  border-radius: 10px 10px 0px 0px;
+}
+.info {
+  width: 317px;
+  margin: auto;
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.info h1 {
+  margin: 0;
+  padding-top: 20px;
+  left: 186px;
+  top: 381px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info .career {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  margin: 0;
+  margin-top: 6px;
+  color: #f47d27;
+}
+.info .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  margin-top: 8px;
+}
+.info .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  margin-top: 17px;
+}
+.info .buttons button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.info .buttons .btn1 {
+  background: #ffffff;
+  color: #374151;
+}
+.info .buttons .btn2 {
+  background: #297fe5;
+  color: #ffffff;
+}
+.info .more-info {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0 35px 0 35px;
+}
+.info .more-info div {
+  margin: 0;
+}
+.info .more-info div h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: left;
+}
+.info .more-info div p {
+  margin: 0;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: left;
+}
+.info .more-info .intrest {
+  margin-top: 20px;
+  padding-bottom: 36px;
+}
+.footer {
+  width: 317px;
+  margin: auto;
+  padding: 0;
+  border-radius: 0 0 10px 10px;
+}
+.footer div {
+  margin: 0;
+}
+.footer .socials img {
+  margin: 0;
+  padding: 0;
+  padding: 20px 20px;
 }
