@@ -1,8 +1,16 @@
+#!/usr/bin/python3
 from sys import argv
 from os.path import exists
-
+"""
+code to copy text from file a to file b
+"""
+if len(argv) != 3:
+    raise ValueError(f"{argv[0][2:]} usage: srcFile destFile")
 script, src, dest = argv
 
+if not exists(src):
+    print(f"{src} Does not exist")
+    exit(1)
 print(f"copying from {src} to {dest}")
 #open src file and read data since open happens default with read mode
 srcFile = open(src)
