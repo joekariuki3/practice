@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from airtable import Airtable
 import os
+from dotenv import load_dotenv
+load_dotenv()  # loads the configs from .env
 
 
 AT = Airtable(os.environ.get('AIRTABLE_MOVIESTABLE_BASE_ID'),
