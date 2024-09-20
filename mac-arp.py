@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-"""script to grap response from "arp -a" 
+"""script to get response from "arp -a"
 for a list of MAC addresses and then use
-REST API to shoe vendors from all them
+REST API to show vendors from all them
 """
 
 import os
