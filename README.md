@@ -13,3 +13,10 @@
   ```bash
   ./mac-arp.py
   ```
+
+### ping.py
+
+- use OS module to ping IP Addresses in List and print Results
+  ```bash
+  ./ping.py
+  ```
