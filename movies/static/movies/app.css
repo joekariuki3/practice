@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Anton");
 
 * {
     box-sizing: border-box;
@@ -17,7 +17,7 @@ body::before {
     left: 0;
     width: 100%;
     content: " ";
-	border-bottom: 0.5rem solid #FCAB07;
+    border-bottom: 0.5rem solid #fcab07;
     z-index: 9999;
 }
 
@@ -65,7 +65,7 @@ body::before {
     margin-left: 2rem;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
     color: #fff;
     font-size: 2rem;
     text-decoration: none;
@@ -82,8 +82,8 @@ body::before {
     width: 20rem;
     font-size: 1.4rem;
     padding: 1rem 1.2rem;
-    font-family: 'Open Sans', sans-serif;
-	caret-color: #FCAB07;
+    font-family: "Open Sans", sans-serif;
+    caret-color: #fcab07;
 }
 
 .search-form__query:focus {
@@ -91,7 +91,7 @@ body::before {
 }
 
 .search-form__icon {
-    background-color: #FCAB07;
+    background-color: #fcab07;
     font-size: 2rem;
     padding: 1rem;
 }
@@ -103,11 +103,11 @@ body::before {
 .main {
     background: #202020;
     /* fallback for old browsers */
-	/*     background-image: url('./clock-pattern.png'); */
+    /*     background-image: url('./clock-pattern.png'); */
 }
 
 .result {
-    background-image: linear-gradient(#1E1E1E 0%, #000 100%);
+    background-image: linear-gradient(#1e1e1e 0%, #000 100%);
     height: auto;
 }
 
@@ -129,7 +129,7 @@ body::before {
     border-right: 1px solid #eee;
     border-left: 1px solid #eee;
     color: black;
-	background: white;
+    background: white;
     text-align: center;
     padding: 1rem;
     font-family: Anton;
@@ -138,15 +138,15 @@ body::before {
 
 .movies__item-image {
     transition: all 0.2s ease;
-	width: 100%;
+    width: 100%;
     height: 45vw;
     max-height: 35.626rem;
-    box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
 }
 
 .movies__item-star {
     z-index: 9998;
-    color: #FAAA2B;
+    color: #faaa2b;
     top: 20%;
     font-size: 4rem;
     position: absolute;
@@ -167,13 +167,13 @@ body::before {
 }
 
 .movies__item-delete-button:hover {
-	cursor: pointer;
+    cursor: pointer;
     transform: scale(1.3);
 }
 
 .movies__item-delete {
     font-size: 1.4rem;
-    color: #EA535D;
+    color: #ea535d;
 }
 
 .movies__item-rating {
@@ -190,34 +190,34 @@ body::before {
 .movies__item-expander {
     font-weight: bold;
     font-size: 1.4rem;
-	text-decoration: none;
+    text-decoration: none;
     text-align: center;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-	bottom: 30%;
+    bottom: 30%;
     z-index: 9998;
-    background-color: #FCA10D;
+    background-color: #fca10d;
     padding: 1rem 1.4rem;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .movies__item-expander:hover {
-	background: #FCAB07;
+    background: #fcab07;
     cursor: pointer;
 }
 
 .footer {
-    background-color: #282A3A !important;
+    background-color: #282a3a !important;
     padding: 1rem 0;
 }
 
 .footer__text {
-    color: #FCA10D !important;
+    color: #fca10d !important;
     text-align: center;
     font-size: 0.8rem;
-    font-family: 'Open sans', sans-serif;
+    font-family: "Open sans", sans-serif;
 }
 
 @media only screen and (max-width: 1224px) {
@@ -229,7 +229,6 @@ body::before {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
