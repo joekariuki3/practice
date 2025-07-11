@@ -10,7 +10,7 @@ import requests
 
 
 response_arp = os.popen('arp -a').readlines()
-print(response_arp)
+print(f"Response from arp -a: {response_arp}")
 
 mac_list = []
 for line in response_arp:
