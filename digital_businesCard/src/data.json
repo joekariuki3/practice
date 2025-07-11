@@ -1,0 +1,20 @@
+{
+    "name":"joel muhoho",
+    "career": "FrontEnd Developer",
+    "link":
+    {
+        "lable":"Joelmuhoho.com",
+        "url":"https://joelmuhoho.com/"
+    },
+    "about":"I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.",
+    "intrests":"Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.",
+    "socials":
+    [
+        {"imgUrl":"./images/FacebookIcon.png","alt":"Facebook"},
+        {"imgUrl":"./images/GitHubIcon.png","alt":"GitHub"},
+        {"imgUrl":"./images/InstagramIcon.png","alt":"Instagram"},
+        {"imgUrl":"./images/TwitterIcon.png","alt":"Twitter"}
+        
+    ]
+    
+}
